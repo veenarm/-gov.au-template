@@ -1,0 +1,8 @@
+node_modules
+pancake
+.vscode
+/app/css/project.css
+/app/css/project.min.css
+/app/js/project.min.js
+/app/vendor
+/package-lock.json
