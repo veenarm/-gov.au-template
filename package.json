@@ -1,0 +1,95 @@
+{
+  "name": "au-uikit-template",
+  "version": "0.0.1",
+  "description": "AU-GOV-UIKIT Template Demo",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "au",
+    "gov",
+    "uikit",
+    "template"
+  ],
+  "author": "John Redwood",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-strip-css-comments": "^2.0.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "@gov.au/accordion": "^1.0.1",
+    "@gov.au/animate": "^1.0.0",
+    "@gov.au/body": "^1.0.0",
+    "@gov.au/breadcrumbs": "^1.0.0",
+    "@gov.au/buttons": "^1.0.2",
+    "@gov.au/callout": "^1.0.0",
+    "@gov.au/control-input": "^1.0.0",
+    "@gov.au/cta-link": "^1.0.0",
+    "@gov.au/direction-links": "^1.0.0",
+    "@gov.au/footer": "^1.0.0",
+    "@gov.au/grid-12": "^1.0.0",
+    "@gov.au/header": "^2.0.0",
+    "@gov.au/headings": "^1.0.0",
+    "@gov.au/inpage-nav": "^1.0.0",
+    "@gov.au/keyword-list": "^1.0.0",
+    "@gov.au/link-list": "^1.0.0",
+    "@gov.au/page-alerts": "^1.0.0",
+    "@gov.au/progress-indicator": "^2.0.0",
+    "@gov.au/responsive-media": "^1.0.0",
+    "@gov.au/select": "^1.0.0",
+    "@gov.au/skip-link": "^1.0.0",
+    "@gov.au/tags": "^1.0.0",
+    "@gov.au/text-inputs": "^1.0.0",
+    "jquery": "^3.3.1"
+  },
+  "pancake": {
+    "auto-save": true,
+    "plugins": true,
+    "ignore": [],
+    "json": {
+      "enable": false,
+      "location": "pancake/",
+      "name": "pancake",
+      "content": {
+        "name": true,
+        "version": true,
+        "dependencies": true,
+        "path": true,
+        "settings": true
+      }
+    },
+    "css": {
+      "minified": true,
+      "modules": false,
+      "browsers": [
+        "last 2 versions",
+        "ie 8",
+        "ie 9",
+        "ie 10"
+      ],
+      "location": "pancake/css/",
+      "name": "pancake.min.css"
+    },
+    "sass": {
+      "modules": false,
+      "location": "pancake/sass/",
+      "name": "pancake.scss"
+    },
+    "react": {
+      "location": "pancake/react/"
+    },
+    "js": {
+      "minified": true,
+      "modules": false,
+      "location": "pancake/js/",
+      "name": "pancake.min.js"
+    }
+  }
+}
